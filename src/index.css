@@ -1,0 +1,165 @@
+/***********************************/
+/* VARIABLES
+/***********************************/
+
+:root {
+  --primary: #1568ff;
+  --secondary: #15326b;
+  --accent: #1a73e8;
+  --light: #ffffff;
+  --black: #000000;
+  --dark: #3c4043;
+  --dark2: #2b2b2b;
+  --dark3: #333333;
+  --borderGrey: #dadce0;
+}
+
+/***********************************/
+/* GLOBAL
+/***********************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f1f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/***********************************/
+/* HELPER
+/***********************************/
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.light-text {
+  color: var(--light);
+}
+
+.black-text {
+  color: var(--black);
+}
+
+.dark-text {
+  color: var(--dark);
+}
+
+.dark2-text {
+  color: var(--dark2);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.secondary-bg {
+  background-color: var(--secondary);
+}
+
+.light-bg {
+  background-color: var(--light);
+}
+
+.black-bg {
+  background-color: var(--black);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.br4 {
+  border-radius: 4px;
+}
+
+.br7 {
+  border-radius: 7px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  display: block;
+  visibility: visible;
+}
+
+.hide {
+  display: none;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/***********************************/
+/* CONTAINERS
+/***********************************/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 840px) {
+  .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.day {
+  margin: 25px 25px;
+}
