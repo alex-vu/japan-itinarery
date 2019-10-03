@@ -3,7 +3,8 @@ import React from "react";
 const Tab = ({ children, activeIndex }) => {
   return (
     <div>
-      {children.map((item, index) => {
+      {/* Returns single element or an array */}
+      {React.Children.map(children, (item, index) => {
         return activeIndex === index ? item : item[0];
       })}
     </div>

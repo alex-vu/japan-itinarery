@@ -222,20 +222,32 @@ export default [
     fields: [
       {
         itinerary: {
-          schedule: "10:30 am",
+          schedule: "9:00 am",
           location: "Leave Hotel"
         }
       },
       {
         itinerary: {
-          schedule: "13:00 am",
-          location: "Tsukiji Fish Market"
+          schedule: "10:00 am",
+          location: "Team Lab Borderless"
+        }
+      },
+      {
+        itinerary: {
+          schedule: "1:00 pm",
+          location: "Lunch Time"
         }
       },
       {
         itinerary: {
           schedule: "14:00 am",
-          location: "Team Lab"
+          location: "Aqua City, Decks, Palette Town"
+        }
+      },
+      {
+        itinerary: {
+          schedule: "4:00 am",
+          location: "Ginza"
         }
       }
     ]
@@ -245,20 +257,14 @@ export default [
     fields: [
       {
         itinerary: {
-          schedule: "10:30 am",
+          schedule: "9:30 am",
           location: "Leave Hotel"
         }
       },
       {
         itinerary: {
-          schedule: "13:00 am",
-          location: "Tsukiji Fish Market"
-        }
-      },
-      {
-        itinerary: {
-          schedule: "14:00 am",
-          location: "Team Lab"
+          schedule: "10:10 am",
+          location: "DisneySea"
         }
       }
     ]
@@ -268,20 +274,14 @@ export default [
     fields: [
       {
         itinerary: {
-          schedule: "10:30 am",
+          schedule: "8:30 am",
           location: "Leave Hotel"
         }
       },
       {
         itinerary: {
-          schedule: "13:00 am",
-          location: "Tsukiji Fish Market"
-        }
-      },
-      {
-        itinerary: {
-          schedule: "14:00 am",
-          location: "Team Lab"
+          schedule: "",
+          location: ""
         }
       }
     ]
@@ -291,20 +291,14 @@ export default [
     fields: [
       {
         itinerary: {
-          schedule: "10:30 am",
-          location: "Leave Hotel"
+          schedule: "",
+          location: ""
         }
       },
       {
         itinerary: {
-          schedule: "13:00 am",
-          location: "Tsukiji Fish Market"
-        }
-      },
-      {
-        itinerary: {
-          schedule: "14:00 am",
-          location: "Team Lab"
+          schedule: "",
+          location: ""
         }
       }
     ]
